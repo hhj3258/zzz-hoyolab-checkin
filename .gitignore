@@ -1,0 +1,7 @@
+data/browser_profile/
+data/.logged_in
+data/.lang
+data/.sched_asked
+.playwright-mcp/
+scripts/__pycache__/
+*.pyc

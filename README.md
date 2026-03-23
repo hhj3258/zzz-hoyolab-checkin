@@ -8,8 +8,10 @@ Automated HoyoLab daily check-in script for Zenless Zone Zero.
 
 ## Requirements
 
-- Python 3.8+
+- [Python 3.8+](https://www.python.org/downloads/) — must be installed manually before running
 - Windows
+
+> A browser does not need to be installed separately. The script downloads and manages its own browser automatically.
 
 ---
 

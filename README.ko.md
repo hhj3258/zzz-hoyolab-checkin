@@ -42,11 +42,11 @@ HoyoLab 젠레스 존 제로 출석체크를 자동으로 수행하는 스크립
 ```
 ├── run.bat               # 실행 진입점
 ├── schedule.bat          # 작업 스케줄러 관리
+├── locales/              # 다국어 문자열 (ko / en / ja)
 └── scripts/
     ├── zzz_checkin.py    # 메인 스크립트
     ├── _setup.py         # 패키지 설치
-    ├── _schedule.py      # 작업 스케줄러 등록/해제
-    └── locales/          # 다국어 문자열 (ko / en / ja)
+    └── _schedule.py      # 작업 스케줄러 등록/해제
 ```
 
 ---

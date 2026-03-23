@@ -42,11 +42,11 @@ To manage the schedule later, run `schedule.bat`.
 ```
 ├── run.bat               # Entry point
 ├── schedule.bat          # Task scheduler management
+├── locales/              # Locale strings (ko / en / ja)
 └── scripts/
     ├── zzz_checkin.py    # Main script
     ├── _setup.py         # Dependency installer
-    ├── _schedule.py      # Task scheduler registration / removal
-    └── locales/          # Locale strings (ko / en / ja)
+    └── _schedule.py      # Task scheduler registration / removal
 ```
 
 ---

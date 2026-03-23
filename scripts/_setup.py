@@ -13,7 +13,7 @@ def _load_locale() -> dict:
         lang = "ko"
     if lang not in ("ko", "en", "ja"):
         lang = "ko"
-    with (SCRIPTS_DIR / "locales" / f"{lang}.json").open(encoding="utf-8") as f:
+    with (SCRIPTS_DIR.parent / "locales" / f"{lang}.json").open(encoding="utf-8") as f:
         return json.load(f)
 
 t = _load_locale()

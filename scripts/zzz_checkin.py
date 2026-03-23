@@ -46,7 +46,7 @@ class SessionExpiredError(Exception):
 
 
 # ── 다국어 로딩 ────────────────────────────────────
-LOCALES_DIR     = SCRIPTS_DIR / "locales"
+LOCALES_DIR     = ROOT_DIR / "locales"
 SUPPORTED_LANGS = ("ko", "en", "ja")
 
 def _load_locale(lang: str) -> dict:
